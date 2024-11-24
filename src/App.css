@@ -1,0 +1,73 @@
+* {
+  font-family: system-ui;
+}
+
+h3 {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  background: none;
+}
+
+.container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hanna {
+  justify-content: left;
+  display: flex;
+  transform: rotateY(180deg);
+}
+
+.ryan {
+  justify-content: right;
+  display: flex;
+
+}
+
+
+.board-row {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  text-align: center;
+}
+
+
+.board {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 250px;
+  height: 250px;
+  align-items: center;
+}
+
+
+.square {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  border-radius: 0%;
+  margin: 2px;
+  border: 2px solid black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
